@@ -67,7 +67,6 @@ if __name__ == '__main__':
     with open(join(args.dataset, 'depth.txt'), 'w') as f:
         for depth_file in depth_files:
             f.write('{}\n'.format(depth_file))
-    
 
     with open(join(args.dataset, 'calibration.txt'), 'w') as f:
         f.write('525.0 525.0 319.5 239.5')

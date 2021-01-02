@@ -3,7 +3,7 @@ import quaternion
 import argparse
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Convrert redwood .log to tum .freiburg')
+    parser = argparse.ArgumentParser(description='Convert redwood .log to tum .freiburg')
     parser.add_argument('filename', type=str, help='input filename[.log]')
 
     args = parser.parse_args()
